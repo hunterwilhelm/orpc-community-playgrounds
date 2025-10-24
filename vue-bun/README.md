@@ -1,5 +1,5 @@
 **vue-bun** — Vue 3 + Vite + Bun
-```
+```bash
 npx degit hunterwilhelm/orpc-community-playgrounds/vue-bun orpc-vue-bun-playground
 cd orpc-vue-bun-playground
 pnpm install
