@@ -6,8 +6,7 @@ import { useRoute } from 'vue-router'
 
 const route = useRoute()
 const id = computed(() => Number(route.params.id))
-
-const { data, isError, isPending } = useQuery(computed(() => orpc.planet.find.queryOptions({ input: { id: id.value } })))
+const { data, isError, isPending } = useQuery(orpc.planet.find.queryOptions({ input: { id } }))
 </script>
 
 <template>
