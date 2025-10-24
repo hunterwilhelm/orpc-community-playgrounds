@@ -4,9 +4,11 @@ A collection of minimal examples showing oRPC in different frameworks and runtim
 
 ## Available Playgrounds
 
+
 **vue-bun** — Vue 3 + Vite + Bun
-```bash
-cd vue-bun
+```
+npx degit hunterwilhelm/orpc-community-playgrounds/vue-bun orpc-vue-bun-playground
+cd orpc-vue-bun-playground
 pnpm install
 pnpm dev
 ```
