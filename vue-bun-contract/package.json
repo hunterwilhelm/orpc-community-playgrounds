@@ -1,0 +1,19 @@
+{
+  "name": "vue-bun-contract-playground",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently --kill-others-on-fail --prefix-colors blue,magenta --names server,client \"pnpm -C packages/back dev\" \"pnpm -C packages/front dev\"",
+    "generate:contract": "pnpm -C packages/back generate:contract"
+  },
+  "devDependencies": {
+    "@types/bun": "1.3.4",
+    "concurrently": "^9.2.1",
+    "typescript": "^5.9.3"
+  },
+  "workspaces": [
+    "packages/back",
+    "packages/front"
+  ]
+}
+

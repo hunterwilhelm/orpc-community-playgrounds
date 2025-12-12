@@ -1,0 +1,17 @@
+node_modules
+dist
+.DS_Store
+*.local
+*.log*
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Generated files
+packages/front/src/api/contract.json
+

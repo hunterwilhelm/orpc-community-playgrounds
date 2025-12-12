@@ -1,0 +1,22 @@
+{
+  "name": "vue-bun-contract-back",
+  "version": "1.0.0",
+  "type": "module",
+  "module": "src/index.ts",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "generate:contract": "bun run src/generate-contract.ts"
+  },
+  "dependencies": {
+    "@orpc/server": "next",
+    "@orpc/openapi": "next",
+    "@orpc/contract": "next",
+    "@orpc/zod": "next",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "typescript": "^5.9.3"
+  }
+}
+

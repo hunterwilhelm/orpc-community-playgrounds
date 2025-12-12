@@ -14,6 +14,15 @@ pnpm dev
 ```
 Open http://localhost:2999
 
+**vue-bun-contract** — Vue 3 + Vite + Bun + JSON Contract + Smart Coercion
+```bash
+npx degit hunterwilhelm/orpc-community-playgrounds/vue-bun-contract orpc-vue-bun-contract-playground
+cd orpc-vue-bun-contract-playground
+pnpm install
+pnpm dev
+```
+Open http://localhost:2999
+
 ## Contributing
 
 Want to add a playground? Just:

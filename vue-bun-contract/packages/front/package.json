@@ -1,18 +1,19 @@
 {
-  "name": "vue-bun-playground-front",
+  "name": "vue-bun-contract-front",
   "type": "module",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",
-    "type-check": "vue-tsc --build --force",
-    "lint": "eslint . --fix"
+    "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
     "@orpc/client": "next",
+    "@orpc/contract": "next",
+    "@orpc/openapi-client": "next",
     "@orpc/tanstack-query": "next",
     "@tanstack/vue-query": "^5.92.1",
     "@vueuse/core": "^14.1.0",
@@ -21,10 +22,9 @@
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.5",
-    "@types/node": "^24.9.1",
+    "@types/node": "^25.0.1",
     "@vitejs/plugin-vue": "6.0.3",
     "@vue/tsconfig": "^0.8.1",
-    "eslint": "^9.39.1",
     "npm-run-all2": "^8.0.4",
     "typescript": "~5.9.3",
     "unplugin-vue-router": "^0.19.0",
@@ -32,3 +32,4 @@
     "vue-tsc": "^3.1.8"
   }
 }
+
